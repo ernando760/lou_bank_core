@@ -1,16 +1,15 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_svg/svg.dart';
 import 'package:lou_bank_core/lou_bank_core.dart';
 
 class LouBankCardMedium extends StatelessWidget {
   const LouBankCardMedium(
       {super.key,
-      required this.imgPath,
+      required this.icon,
       required this.tag,
       required this.value,
       required this.code,
       required this.gradientColor});
-  final String imgPath;
+  final Widget icon;
   final String tag;
   final String value;
   final String code;
@@ -27,13 +26,7 @@ class LouBankCardMedium extends StatelessWidget {
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          SvgPicture.asset(
-            imgPath,
-            width: 80,
-            height: 40,
-            colorFilter:
-                const ColorFilter.mode(Color(0xFF272A32), BlendMode.srcIn),
-          ),
+          icon,
           Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
