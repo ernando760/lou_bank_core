@@ -36,7 +36,8 @@ class LouBankCustomCreditCard extends StatelessWidget {
 
               Align(
                 alignment: Alignment.centerLeft,
-                child: Image.asset("assets/images/credit_card_chip.png"),
+                child: Image.asset(
+                    "assets/images/credit_cards/credit_card_chip.png"),
               ),
 
               Row(
