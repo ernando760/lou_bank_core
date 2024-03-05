@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
 
 import 'package:lou_bank_core/lou_bank_core.dart';
+import 'package:lou_bank_core/src/controllers/line_chart_controller.dart';
 
 class LouBankLineChart extends StatefulWidget {
   const LouBankLineChart({super.key});
