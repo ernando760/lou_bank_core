@@ -19,3 +19,5 @@ export 'src/widgets/credit_cards/lou_bank_credit_card_mint.dart';
 export 'src/widgets/credit_cards/lou_bank_credit_card_purple.dart';
 export 'src/widgets/buttons/lou_bank_custom_icon_button.dart';
 export 'src/widgets/lou_bank_custom_icon.dart';
+export 'src/widgets/cards/lou_bank_card_big.dart';
+export 'src/widgets/charts/lou_bank_line_chart/lou_bank_line_chart.dart';
